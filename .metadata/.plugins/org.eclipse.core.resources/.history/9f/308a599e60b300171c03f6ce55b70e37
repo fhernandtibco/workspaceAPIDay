@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_i_w5cLNeEeeBR6lYpZ1M2A" targetNamespace="http://tns.tibco.com/bw/composite/APIDayProject.module" name="APIDayProject.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_gIXZELNfEeeBR6lYpZ1M2A" name="Process" promote="ComponentProcess/Process">
+    <sca:interface.wsdl xmi:id="_gIfU4LNfEeeBR6lYpZ1M2A" interface="http://www.example.org/wsdl/1508260813046#wsdl.interface(Process)" scaext:wsdlLocation="../Service%20Descriptors/Process.wsdl"/>
+  </sca:service>
+  <sca:property xmi:id="_jfOcoLNeEeeBR6lYpZ1M2A" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_jfW_gLNeEeeBR6lYpZ1M2A" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_jfap4LNeEeeBR6lYpZ1M2A" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_jfdtMLNeEeeBR6lYpZ1M2A" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_jfgJcLNeEeeBR6lYpZ1M2A" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_jfilsLNeEeeBR6lYpZ1M2A" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_jTsiELNeEeeBR6lYpZ1M2A" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_jTtJILNeEeeBR6lYpZ1M2A" processName="apidayproject.module.Process"/>
+    <sca:service xmi:id="_gITHoLNfEeeBR6lYpZ1M2A" name="Process">
+      <sca:interface.wsdl xmi:id="_gITusLNfEeeBR6lYpZ1M2A" interface="http://www.example.org/wsdl/1508260813046#wsdl.interface(Process)" scaext:wsdlLocation="../Service%20Descriptors/Process.wsdl"/>
+    </sca:service>
+  </sca:component>
+</sca:composite>

@@ -1,0 +1,18 @@
+{
+    "layout": "flat",
+    "showApiRegistryUrl": false,
+    "config": [{
+        "password": "#!tCszU90fuDxuvisLzkN320Id+ZrtiDAX0hwP4cgys/A=",
+        "isVPNConnectionSpecEnabled": false,
+        "vpnConnectionConfig": [],
+        "readonly": false,
+        "isEnabled": true,
+        "bwcloud.supportedplugins.lastsynctime": 1508289401524,
+        "name": "Cloud",
+        "type": "cloud",
+        "bwcloud.supportedplugins": "bw.servicenow,bw.salesforce,bw.sfbulk,bw.dynamicscrm,bw.netsuite,bw.marketorest,bw.workday,bw.amazons3,bw.mqtt,bw.mdm,bw.sqs,bw.sftp",
+        "url": "https://integration.cloud.tibco.com:443",
+        "username": "fhernand@tibco.com"
+    }],
+    "groupByApiRegistry": false
+}

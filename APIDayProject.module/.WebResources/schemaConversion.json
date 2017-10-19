@@ -1,0 +1,12 @@
+{"records": [
+    {
+        "jsonSchemaLocation": "/APIDayProject.module/Service Descriptors/apidayproject.module.APITest-APITest.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.org/schema/1508260813080"
+    },
+    {
+        "jsonSchemaLocation": "/APIDayProject.module/Service Descriptors/apidayproject.module.APITest-APITest.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://xmlns.example.com/APITest/parameters"
+    }
+]}

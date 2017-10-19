@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config:ProjectConfig xmlns:config="http://www.tibco.com/XPD/projectConfig">
+  <projectDetails id="com.example.apidayproject">
+    <globalDestinations/>
+  </projectDetails>
+  <config:specialFolders>
+    <config:folder id="_iz_HQLNeEeeBR6lYpZ1M2A" kind="com.tibco.amx.zion.schema" location="Schemas"/>
+    <config:folder id="_i0KGYLNeEeeBR6lYpZ1M2A" kind="com.tibco.bw.process.folder" location="Processes"/>
+  </config:specialFolders>
+</config:ProjectConfig>
